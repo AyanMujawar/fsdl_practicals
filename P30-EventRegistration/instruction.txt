@@ -1,0 +1,20 @@
+For P30: Event Registration
+If you get P30 in the exam, the steps are nearly identical. Open your Linux terminal and run:
+
+1. Go to the P30 folder:
+
+bash
+cd path/to/FSDL-Practicals/P30-EventRegistration
+2. Initialize the Node project:
+
+bash
+npm init -y
+3. Install the specific backend libraries P30 needs:
+
+bash
+npm install express mongoose
+4. Start your server:
+
+bash
+node server.js
+5. View the output: Open the web browser on the Linux machine and type: http://localhost:3000

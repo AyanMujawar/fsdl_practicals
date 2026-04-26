@@ -1,0 +1,17 @@
+1. Go to the P29 folder (the exact path will depend on where the folders are saved on the exam computer, but it will look something like this):
+
+bash
+cd path/to/FSDL-Practicals/P29-StudentRecordSystem
+2. Initialize the Node project:
+
+bash
+npm init -y
+3. Install the specific backend libraries P29 needs: (Even though the guideline mentioned Chart.js and Bootstrap, P29 is a backend app that specifically needs Express and Mongoose to talk to the offline MongoDB).
+
+bash
+npm install express mongoose
+4. Start your server:
+
+bash
+node server.js
+5. View the output: Open the web browser on that Linux machine (like Firefox or Chrome) and type: http://localhost:3000
